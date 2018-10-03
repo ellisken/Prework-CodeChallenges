@@ -12,6 +12,9 @@ namespace CodingChallenges1
             int[] testArray2 = { 1, 3, 2 };
             //Console.WriteLine($"{String.Join(" ", testArray1)} Perfect Sequence? {PerfectSequence(testArray1)}");
             //Console.WriteLine($"{String.Join(" ", testArray2)} Perfect Sequence? {PerfectSequence(testArray2)}");
+            int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5}, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+            Console.WriteLine($"Sum of rows? {String.Join(" ", SumOfRows(myArray))}");
+
         }
 
         // Challenge 1 solution
@@ -87,6 +90,25 @@ namespace CodingChallenges1
                 return "Yes";
 
             return "No";
+        }
+
+        //Challenge 4 solution
+        static int[] SumOfRows(int[,] arr)
+        {
+            int[] answer = new int[arr.GetLength(0)];
+            //For each subarray, get the sum and add it to answer
+            int i = 0;
+            for (i = 0; i < arr.GetLength(0); i++)
+            {
+                int sum = 0;
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    sum += arr[i, j];
+                }
+                answer[i] = sum;
+            }
+
+            return answer;
         }
     }
 }
