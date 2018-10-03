@@ -1,0 +1,11 @@
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\bin\Debug\netcoreapp2.1\CodingChallenges1.deps.json
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\bin\Debug\netcoreapp2.1\CodingChallenges1.runtimeconfig.json
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\bin\Debug\netcoreapp2.1\CodingChallenges1.runtimeconfig.dev.json
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\bin\Debug\netcoreapp2.1\CodingChallenges1.dll
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\bin\Debug\netcoreapp2.1\CodingChallenges1.pdb
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.csprojAssemblyReference.cache
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.csproj.CoreCompileInputs.cache
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.AssemblyInfoInputs.cache
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.AssemblyInfo.cs
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.dll
+C:\Users\Kendragon\codefellows\401\Prework-CodeChallenges\CodingChallenges1\CodingChallenges1\obj\Debug\netcoreapp2.1\CodingChallenges1.pdb
