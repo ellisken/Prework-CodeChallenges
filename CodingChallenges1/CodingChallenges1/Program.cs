@@ -7,9 +7,14 @@ namespace CodingChallenges1
         static void Main(string[] args)
         {
             //Console.WriteLine($"Resulting Score:{SelectionScoring()}");
-            Console.WriteLine($"Year is leap year? {LeapYear()}");
+            //Console.WriteLine($"Year is leap year? {LeapYear()}");
+            int[] testArray1 = {4, 5, 6};
+            int[] testArray2 = { 1, 3, 2 };
+            //Console.WriteLine($"{String.Join(" ", testArray1)} Perfect Sequence? {PerfectSequence(testArray1)}");
+            //Console.WriteLine($"{String.Join(" ", testArray2)} Perfect Sequence? {PerfectSequence(testArray2)}");
         }
 
+        // Challenge 1 solution
         static int SelectionScoring()
         {
             int[] inputArray = new int[5];
@@ -44,6 +49,7 @@ namespace CodingChallenges1
             return (num * count);
         }
 
+        //Challenge 2 solution
         static bool LeapYear()
         {
             Console.WriteLine("Please enter a year: ");
@@ -55,6 +61,32 @@ namespace CodingChallenges1
             else if(year % 4 == 0 && year % 100 != 0)
                 return true;
             else return false;
+        }
+
+        //Challenge 3 solution
+        static string PerfectSequence(int[] nums)
+        {
+            int sum = 0;
+            int product = 1;
+            bool noNegatives = true;
+
+            foreach (int num in nums)
+            {
+                //If num is negative, break and set flag
+                if (num < 0)
+                {
+                    noNegatives = false;
+                    break;
+                }
+                //Else update product and sum
+                sum += num;
+                product *= num;
+            }
+            // Check for perfect 
+            if (sum == product && noNegatives)
+                return "Yes";
+
+            return "No";
         }
     }
 }
