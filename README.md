@@ -23,7 +23,7 @@ An array of integers, and the number chosen.
 #### Sample Output
 8
 
-##### Result
+#### Result
 ![result image](./CodingChallenges1/challenge1.PNG)
 
 
@@ -49,7 +49,7 @@ Want to know more about Leap Year? Watch this 4 minute video [HERE](https://www.
 
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
-##### Result
+#### Result
 ![result image](./CodingChallenges1/challenge2.PNG)
 
 
@@ -77,7 +77,7 @@ Yes
 #### Explanation
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
-##### Result
+#### Result
 ![result image](./CodingChallenges1/challenge3.PNG)
 
 
@@ -107,7 +107,7 @@ int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12
 
 {15,40,65} <-- an integer array
 
-##### Result
+#### Result
 ![result image](./CodingChallenges1/challenge4.PNG)
 
 <hr />
