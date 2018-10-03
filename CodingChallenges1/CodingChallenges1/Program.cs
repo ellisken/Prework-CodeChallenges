@@ -6,12 +6,12 @@ namespace CodingChallenges1
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine($"Resulting Score:{SelectionScoring()}");
-            //Console.WriteLine($"Year is leap year? {LeapYear()}");
+            Console.WriteLine($"Resulting Score:{SelectionScoring()}");
+            Console.WriteLine($"Year is leap year? {LeapYear()}");
             int[] testArray1 = {4, 5, 6};
             int[] testArray2 = { 1, 3, 2 };
-            //Console.WriteLine($"{String.Join(" ", testArray1)} Perfect Sequence? {PerfectSequence(testArray1)}");
-            //Console.WriteLine($"{String.Join(" ", testArray2)} Perfect Sequence? {PerfectSequence(testArray2)}");
+            Console.WriteLine($"{String.Join(" ", testArray1)} Perfect Sequence? {PerfectSequence(testArray1)}");
+            Console.WriteLine($"{String.Join(" ", testArray2)} Perfect Sequence? {PerfectSequence(testArray2)}");
             int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5}, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
             Console.WriteLine($"Sum of rows? {String.Join(" ", SumOfRows(myArray))}");
 
