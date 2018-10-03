@@ -11,7 +11,7 @@ Create a Console application that requests 5 numbers between 1-10. Output the ar
 select a number. After the selection, output the "score" of the number chosen.
 
 ##### Result
-![result image](CodeChallenge1/codechallenge1.png)
+![result image](Prework-CodeChallenges/CodingChallenges1/challenge1.PNG)
 
 #### Selection and Scoring Algorithm
 You can select any number from the list, however your scoring will be depend on the frequency of that number in the list. 
