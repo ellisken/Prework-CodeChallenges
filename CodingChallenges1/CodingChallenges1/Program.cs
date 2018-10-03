@@ -6,8 +6,8 @@ namespace CodingChallenges1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine($"Resulting Score:{SelectionScoring()}");
+            //Console.WriteLine($"Resulting Score:{SelectionScoring()}");
+            Console.WriteLine($"Year is leap year? {LeapYear()}");
         }
 
         static int SelectionScoring()
@@ -42,6 +42,19 @@ namespace CodingChallenges1
             }
 
             return (num * count);
+        }
+
+        static bool LeapYear()
+        {
+            Console.WriteLine("Please enter a year: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+            if (year % 4 == 0 && year % 400 == 0)
+            {
+               return true;
+            }
+            else if(year % 4 == 0 && year % 100 != 0)
+                return true;
+            else return false;
         }
     }
 }
