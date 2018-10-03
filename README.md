@@ -10,9 +10,6 @@ both an array of integers and the integer the user selected.
 Create a Console application that requests 5 numbers between 1-10. Output the array to the console and Ask the user to
 select a number. After the selection, output the "score" of the number chosen.
 
-##### Result
-![result image](Prework-CodeChallenges/CodingChallenges1/challenge1.PNG)
-
 #### Selection and Scoring Algorithm
 You can select any number from the list, however your scoring will be depend on the frequency of that number in the list. 
 E.g for [2,2,3,5,4] if you pick 2 your score will be 4 (2 * 2) but if you pick 5 your score will be 5 (5 * 1)
@@ -24,14 +21,10 @@ An array of integers, and the number chosen.
 [6,4,4,1,3] , 4
 
 #### Sample Output
-16
+8
 
-#### Readme
-A section of your readme should contain basic information outlining the requirements for the challenge
-1. Name of Challenge
-2. Instructions of Challenge
-3. Screen capture of successful output. 
-
+##### Result
+![result image](./CodingChallenges1/challenge1.PNG)
 
 
 <hr />
@@ -56,11 +49,9 @@ Want to know more about Leap Year? Watch this 4 minute video [HERE](https://www.
 
 Note: This is not a trick problem. Edge cases do not need to be taken into consideration when creating a solution.
 
-#### Readme
-A section of your readme should contain basic information outlining the requirements for the challenge
-1. Name of Challenge
-2. Instructions of Challenge
-3. Screen capture of successful output. 
+##### Result
+![result image](./CodingChallenges1/challenge2.PNG)
+
 
 <hr />
 
@@ -86,11 +77,9 @@ Yes
 #### Explanation
 1 * 3 * 2 = 6 && 1 + 3 + 2 = 6
 
-#### Readme
-A section of your readme should contain basic information outlining the requirements for the challenge
-1. Name of Challenge
-2. Instructions of Challenge
-3. Screen capture of successful output. 
+##### Result
+![result image](./CodingChallenges1/challenge3.PNG)
+
 
 
 <hr />
@@ -116,17 +105,15 @@ int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12
 
 #### Sample Output
 
-{10,40,65} <-- an integer array
+{15,40,65} <-- an integer array
 
-#### HINTS
-- for loops are your best friend
-- GetLength() is a method you should look into
-	- i.e. in the array above myArray.GetLength(0) is equal to 3
-	- myArray.GetLength(1) is equal to 5
-	
+##### Result
+![result image](./CodingChallenges1/challenge4.PNG)
 
-#### Readme
-A section of your readme should contain basic information outlining the requirements for the challenge
-1. Name of Challenge
-2. Instructions of Challenge
-3. Screen capture of successful output. 
+<hr />
+
+## All Problem Results in Console
+![result image](./CodingChallenges1/allchallenges.PNG)
+
+
+
